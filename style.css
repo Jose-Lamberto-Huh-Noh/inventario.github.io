@@ -1,0 +1,26 @@
+.boton {
+    background: #ff9800;
+    background-image: -webkit-linear-gradient(top, #ff9800, #ff5722);
+    background-image: -moz-linear-gradient(top, #ff9800, #ff5722);
+    background-image: -ms-linear-gradient(top, #ff9800, #ff5722);
+    background-image: -o-linear-gradient(top, #ff9800, #ff5722);
+    background-image: linear-gradient(to bottom, #ff9800, #ff5722);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 11px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background: #ff5722;
+    background-image: -webkit-linear-gradient(top, #ff5722, #ff9800);
+    background-image: -moz-linear-gradient(top, #ff5722, #ff9800);
+    background-image: -ms-linear-gradient(top, #ff5722, #ff9800);
+    background-image: -o-linear-gradient(top, #ff5722, #ff9800);
+    background-image: linear-gradient(to bottom, #ff5722, #ff9800);
+    text-decoration: none;
+}
